@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+hr{
+    opacity: .1;
+}
+.container {
+    padding: 0 8rem;
+}
+header {
+    width: 100%;
+    padding: 0 13rem;
+}
+header .logo {
+    color: black;
+}
+header .header-all {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    align-items: center;
+}
+header .header-all nav a {
+    padding-right: 30px;
+    color: black;
+    font-weight: 300;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .header-all nav a:hover {
+    opacity: 0.6;
+}
+header .header-all .menu a {
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: black;
+    transition: 0.5s;
+}
+header .header-all .menu a:hover {
+    opacity: 0.6;
+}
+main {
+    position: relative;
+}
+main .btn {
+    padding: 13px 28px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(217, 74, 74);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+    position: fixed;
+    right: 23px;
+    bottom: 90px;
+}
+main .shopIcon {
+    padding: 17px;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 34%;
+    box-shadow: 1px 1px;
+    background-color: #f3f3f3;
+    color: rgb(217, 74, 74);
+
+}
+main .circleIcon {
+    color: #f3f3f3;
+    background-color: rgb(217, 74, 74);
+    padding: 17px;
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    bottom: 40%;
+    box-shadow: 1px 1px;
+
+}
+#Design .Design-all {
+    background-color: #f3f3f3;
+    height: 40rem;
+    position: relative;
+    overflow: hidden;
+}
+#Design .Design-all h1 {
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Design .Design-all h3 {
+    font-weight: 100;
+    opacity: 0.6;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Design .Design-all .text {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+#Design .Design-all .img {
+    position: absolute;
+    right: 0;
+}
+.NavForItems .Items-All {
+    position: relative;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6rem;
+}
+.NavForItems .Items-All .MainNav a {
+    letter-spacing: 2px;
+    color: #939393;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    transition: 0.5s;
+}
+.NavForItems .Items-All h2 {
+    letter-spacing: 2px;
+    color: #000;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+.NavForItems .Items-All .MainNav a:hover {
+    color: black;
+}
+.products .Products-All {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+}
+.products .Products-All .box {
+    width: 23%;
+    margin-bottom: 10rem;
+    height: 21rem;
+    background-color: #939393;
+    text-align: center;
+    position: relative;
+    transition: 0.5s;
+}
+.products .Products-All .box img {
+    width: 100%;
+    height: 100%;
+}
+.products .Products-All .QuickLook {
+    padding: 6px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+}
+.products .Products-All .box .info {
+    padding: 2rem 0;
+}
+.products .Products-All .box a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #000;
+}
+.products .Products-All .box h4 {
+    padding-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+
+    opacity: 0.4;
+}
+.products .Products-All .box h5 {
+    font-size: 19px;
+    font-weight: 300;
+    padding-top: 1rem;
+    opacity: 0.4;
+}
+.products .Products-All .box h4 {
+    opacity: 0;
+}
+.products .Products-All .box:hover .info h5 {
+    position: fixed;
+}
+.products .Products-All .box:hover .info h4 {
+    opacity: 0.4;
+}
+.products .Products-All .box .forEffect h4 {
+    color: #fff;
+}
+.products .Products-All .box .forEffect {
+    position: absolute;
+    background-color: #000;
+    clip-path: circle(0% at 50% 50%);
+    opacity: 0.4;
+    transition: 0.4s;
+
+}
+.products .Products-All .box:hover .forEffect {
+    clip-path: circle(100% at 50% 50%);
+}
+.contact .contact-All {
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact .contact-All .contactUs {
+    padding: 3rem 0;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact .contact-All .contactUs h3 {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.contact .contact-All .contactUs a{
+    font-size: 14px;
+    color: #000;
+    opacity: .4;
+}
+
+footer .footer-All {
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .footer-All .socialMedia i{
+    margin-left: 1.5rem;
+    font-size: 40px;
+    transition: .5s;
+    cursor: pointer;
+
+}
+footer .footer-All .socialMedia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-All .socialMedia i:hover{
+    transform: rotate(360deg);
+}

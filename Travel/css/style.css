@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 0 4rem;
+}
+
+header{
+    position: relative;
+
+}
+.header-All {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 11;
+    padding: 35px 0;
+    position: fixed;
+}
+header .layer{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    background-color: black;
+    opacity: .1;
+    z-index: 4;
+}
+.header-All .logo img{
+    width: 160px;
+}
+.header-All nav a{
+    font-size: 14px;
+    margin: 0 30px;
+    font-weight: 600;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-All nav .btn{
+    padding: 8px 12px;
+    border-radius: 30px;
+    border: none;
+    background-color: #BA71DA;
+    color: white;
+}
+.header-All .menu img{
+    margin-right: 9rem;
+    width: 2rem;
+}
+.search{
+    padding: 14rem 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    filter: contrast(.7);
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+}
+.search .text{
+    text-align: center;
+}
+.search .text h1{
+    font-size: 55px;
+    color: white;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.search .text span{
+    text-decoration: underline #BA71DA;
+}
+.search .text h2{
+    font-size: 28px;
+    margin: 2rem 0 0 0;
+    color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.search .select{
+    text-align: center;
+    padding: 4rem 0;
+}
+.search .select select{
+    padding: 14px 80px;
+    border: none;
+    border-radius: 30px;
+    appearance: none;
+}
+.search .logos{
+    display: flex;
+    width: 35%;
+    text-align: center;
+    margin: auto;
+}
+.search .logos .box{
+    padding:  35px 45px;
+    margin: 0 20px;
+    position: relative;
+}
+.search .logos .box p{
+    color: #fff;
+    margin-top: 15px;
+}
+.search .logos .layer{
+    background: #000;
+    position: absolute;
+    width: 100%;
+    z-index: -44;
+    margin: -2rem -3rem;
+    height: 100%;
+    opacity: .4;
+
+}
+.search .logos .box img{
+    width: 45px;
+}
+.destinations .text{
+    text-align: center;
+    margin: 3.8rem 0;
+}
+.destinations .text span{
+    text-decoration: underline #1BBC9B;
+}
+.destinations .text p{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin:14px 0;
+    opacity: .7;
+}
+.destinations .text h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .7;
+}
+.destinations .locations{
+    display: flex;
+    margin: 4rem 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.destinations .locations .box{
+    width: 30%;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    position: relative;
+}
+.destinations .locations .box img{
+    width: 100%;
+    height: 100%;
+}
+.destinations .locations .box .text{
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+    left: 30px;
+    z-index: 11;
+}
+.destinations .locations .box .layer{
+    position: absolute;
+    text-align: center;
+    background-color: #14B9D5;
+    color: #fff;
+    opacity: 0;
+    transition: .8s;
+    padding:auto;
+    width: 100%;
+    height: 100%;
+    z-index: 111;
+}
+.destinations .locations .layer h1{
+    margin: 3rem 0;
+}
+.destinations .locations .layer p{
+    margin-bottom:3rem ;
+}
+.destinations .locations .box:hover .layer{
+    opacity: 1;
+}
+.destinations .locations .box .layer .btn{
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: none;
+    color: #000;
+    background-color: #fff;
+}
+.trip-All{
+    background-image: url(https://cdnn1.img.sputnik.az/img/41156/11/411561118_0:0:2000:1333_600x0_80_0_1_69540f0215ff3a9f838a09ca136c62c1.jpg);
+    padding: 6rem 0;
+    margin-bottom: 2rem;
+    background-size: cover;
+    background-position: center;
+}
+.trip-All .text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.trip-All h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.trip-All a{
+    padding: 13px 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #fff;
+    font-size: 20px;
+}
+.trip-All .text span{
+    text-decoration: underline #F76570;
+}

@@ -1,0 +1,524 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    vertical-align: bottom;
+}
+.container{
+    padding: 0 12rem ;
+}
+a{
+    text-decoration: none;
+}
+.btn_1{
+    padding: 20px 20px;
+    border-radius: 100%;
+    background-image: linear-gradient(-225deg, rgb(117, 93, 213) 35%, rgb(55, 136, 209) 100%);
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    color: #fff;
+    transition: .5s;
+    position: fixed;
+    cursor: pointer;
+}
+.btn_1:hover{
+    color: #000;
+    box-shadow: 3px 5px 20px 2px;
+    transform: rotate(360deg);
+}
+header{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #208bbf;
+}
+header .header-All{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .header-All .logo{
+    height: 70px;
+    width: 17%;
+}
+header .header-All .logo img{
+    width: 100%;
+    height: 100%;
+}
+header .header-All nav a{
+    margin: 0 15px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+header .header-All .btn a{
+    padding: 20px 60px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.ads .ads-All{
+    padding: 0 13rem;
+    position: relative;
+}
+.ads .ads-All .effect{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 5rem;
+    position: relative;
+}
+
+.ads .imgInfo {
+    width: 90%;
+    padding-top: 1rem ;
+    margin: 0 auto;
+}
+.ads .imgInfo img{
+    height: 42rem;
+    width: 100%;
+    position: relative;
+}
+.ads .ads-All .effect::before{
+    position: absolute;
+    top: 14rem;
+    left: 24.5rem;
+    text-shadow: 1px 1px 100px rgb(89, 89, 89);
+    font-size: 159px;
+    color: white;
+    content: "SANITIZER";
+    font-weight: 900;
+    transform: translate(-42%, -60%);
+}
+.ads .ads-All .box{
+    width: 180px;
+    position: absolute;
+    height: 180px;
+    text-align: center;
+    margin: -35rem 33rem;
+    font-size: 25px;
+    background-color: blue;
+    border-radius: 100% 100% 100% 0;
+}
+.ads .ads-All .box h1{
+    margin-top: 3rem;
+}
+.ads .ads-All .ads-Text{
+    text-align: center;
+}
+.ads .ads-All .ads-Text i{
+    color: purple;
+    font-size: 25px;
+}
+.ads .ads-All .ads-Text span{
+    font-weight: 500;font-size: 25px;
+}
+.ads .ads-All .ads-Text button{
+    padding: 12px 80px;
+    border: none;
+    border-radius: 50px;
+    background-color: blue;
+    cursor: pointer;
+    margin: 4rem 0 ;
+}
+.product-All{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+.product-All .box{
+    width: 30%;
+    text-align: left;
+    position: relative;
+}
+.product-All .box .img{
+    overflow: hidden;
+}
+.product-All .box .img img{
+    width: 100%;
+    transition: .4s;
+}
+.product-All .box .info .flex span{
+    font-size: 30px;
+}
+.product-All .box .info .flex .star{
+    cursor: pointer;
+    margin-left:6rem;
+}
+.product-All .box .info .flex{
+    margin-top: 1rem;
+    align-items: center;
+    display: flex;
+}
+.product-All .box .info{
+    margin-bottom:3rem;
+    font-size: 20px;
+    padding: 4rem 0;
+    background-color: #F2F2F2;
+    
+    padding-left: 3rem;
+    
+}
+.product-All .box img:hover{
+    transform: scale(1.2);
+    
+}
+.product-All .box .icons{
+    width: 40px;
+    height: 9rem;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 3;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.product-All .box .icons i{
+    font-size: 25px;
+    margin: 12px 0;
+    margin-left: 6px;
+    cursor: pointer;
+    transition: .5s;
+    text-align: center;
+}
+.product-All .box .icons i:hover{
+    color: #208bbf;
+}
+.btn3{
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    border: none;
+    background-color: #1855A6;
+    transition: .5s;
+}
+.btn3:hover{
+    background-color: #208bbf;
+}
+
+.feedBack{
+    padding: 6rem 0;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Clinika-Gel_banner.jpg?id=22244);
+}
+.feedBack .text h1{
+    font-size: 55px;
+}
+.feedBack .text p{
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 4rem;
+}
+.feedBack .a{
+    padding-left: 10rem;
+}
+.feedBack .a a{
+    padding: 16px 60px;
+    background-color: #fff;
+    color: #208bbf;
+    border: none;
+    border-radius: 60px;
+}
+.beforeEffect{
+    position: relative;
+    font-size: 30px;
+    margin: 4rem 42%;
+}
+.beforeEffect::before{
+    content: 'Sanitize';
+    margin: -5rem -7rem;
+    z-index: -1;
+    color: #F2F2F2;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    position: absolute;
+}
+.beforeEffect2{
+    position: relative;
+    font-size: 30px;
+    margin: 7rem 42%;
+}
+.beforeEffect2::before{
+    content: 'Latest';
+    margin: -5rem -5.5rem;
+    z-index: -1;
+    color: #F2F2F2;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    position: absolute;
+}
+.subscribe{
+    padding: 9rem 0;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/subscribe-bg.jpg?id=22100);
+}
+.subscribe h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.subscribe p{
+    font-size: 17px;
+    margin: 2rem 0;
+}
+.subscribe h1::after{
+    contain: 'Subscribe';
+}
+.subscribe input{
+    padding: 20px 170px;
+    border-radius: 50px;
+    position: relative;
+    border: none;
+}
+.subscribe button{
+    cursor: pointer;
+    padding: 15px 30px;
+    background-color: #48494B;
+    color: #fff;
+    margin: 5px -8rem;
+    border: none;
+    border-radius: 40px;
+    position: absolute;
+    transition: .5s;
+}
+.subscribe button:hover{
+    background-color: #208bbf;
+}
+.partners{
+    padding: 15rem 0;
+    text-align: center;
+}
+.partners h1{
+    font-size: 3rem;
+    font-weight: bold;
+}.partners h1::after{
+    content: 'Partner';
+    margin: -8rem -33.5rem;
+    z-index: -1;
+    color: #F2F2F2;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 185px;
+    position: absolute;
+}
+
+.partners p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+.partners .gallery{
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-between;
+    
+}
+.partners .gallery img{
+    cursor: pointer;
+    width: 15%;
+    height: 60px;
+    filter: grayscale(1);
+    transition: .5s;
+}
+.partners .gallery img:hover{
+    filter: grayscale(0);
+}
+.benefit .chechkup{
+    display: flex;
+    flex-wrap: wrap;
+}
+.benefit-all .text h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: relative;
+}
+.benefit{
+    display: flex;
+}.benefit .chechkup{
+    display: flex;
+    margin-top: 7rem;
+}
+.benefit .chechkup .box img{
+    height: 80px;
+    width: 70px;
+    margin-bottom: 1rem;
+}
+.benefit-all .text h1::before{
+    content: 'Benefit';
+    color: #EDF1F7;
+    margin: -9rem -4rem;
+    z-index: -1;
+    font-weight: bolder;
+    font-size: 196px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+.benefit-all .benefit .chechkup .box{
+    width: 50%;
+}
+.news-All{
+    padding: 10rem;
+}
+.news-All .headline p{
+    font-size: 20px;
+}
+.news-All .headline{
+    margin: 6rem 0;
+    text-align: center;
+}
+.news-All .headline h1{
+    position: relative;
+    margin-bottom: 3rem;
+    font-size: 40px;
+}
+.news-All .headline h1::before{
+    content: "NEWS";
+    color: rgb(237, 241, 247);
+    z-index: -1;
+    font-size: 10rem;
+    margin: -10rem -4rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+.news-All .news .box{
+    width: 30%;
+    height: 100%;
+}
+.news-All .news .box h1{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news-All .news .box p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0;
+    font-weight: 200;
+} 
+.news-All .news{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.news-All .news img:hover{
+    transform: scale(1.1);
+}
+.news-All .news .img img{
+    width: 100%;
+    border-radius: 20px;
+    transition: .5s;
+}
+.news-All .news .img{
+    cursor: pointer;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.news-All .news .box a{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.footerBackground{
+    background-color:#545454 ;
+}
+.footer .links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .links .box h1{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .links .box .li h5{
+    margin: 7px 0;
+}
+.footer .links .box .li{
+    margin: 2rem 0;
+}
+.footer .links .box .li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .sub h1{
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.footer .sub h6{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.footer .sub .input{
+    position: relative;
+    margin: 1rem 0;
+}
+.footer .sub .input input{
+    padding: 13px 44px;
+    border-radius: 20px;
+}
+.footer .sub .input i{
+    font-size: 36px;
+    position: absolute;
+    top: 5px;
+    right: 75px;
+    color: black;
+    transition: .5s;
+}
+.footer .sub .input i:hover {
+    color: #208bbf;
+}
+.footer .sub .social span{
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.footer .sub .social {
+    display: flex;
+    align-items: center;
+}
+.footer .sub .social i{
+    margin: 0 10px;
+    font-size: 30px;
+}
